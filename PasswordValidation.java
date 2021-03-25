@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class PasswordValidation {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
         String pw = sc.next();
         if (pw.length() >= 7 && isNumeric(pw) >= 2 && isSpecial(pw) >= 2) {
